@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hugo Henrique - Github.io</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='javascript/main.js'></script>
+</head>
+<body>
+    <nav id="menu" class="navMenu">
+        <ul class="listNav">
+            <li onclick="linkInicio()"><label>Início</label></li>
+            <li onclick="linkPortifolios()"><label>Portifólio</label></li>
+            <li onclick="linkContate()"><label>Contate</label></li>
+        </ul>
+    </nav><br><br><br>
+    <div class="container-fluid mt-5">
+        <div class="mt-5 centro">
+            <img src="avatar.jpg" id="imgRounded">
+            <h3 class="animation">Hugo Henrique</h3>
+            <div id="description"></div>
+            <div id="description2"></div>
+            <script type="text/javascript">            
+                var div = document.getElementById('description');
+                var div2 = document.getElementById('description2');
+                var texto = 'Sou Desenvolvedor Web mais voltado ao Back-End, Python, C++, Java, WebServices.';
+                var texto2 = 'Estou sempre buscando mais conhecimento e espero que a nossa relação seja uma boa experiência.'
+                function escrever(str, el) {
+                var char = str.split('').reverse();
+                var typer = setInterval(function() {
+                    if (!char.length) return clearInterval(typer);
+                    var next = char.pop();
+                    el.innerHTML += next;
+                }, 50);
+                }
+                escrever(texto, div);
+                escrever(texto2, div2)
+            </script>
+        </div>
+    </div>
+</body>
+</html>

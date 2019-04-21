@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto');
+
+body {
+    width: auto;
+    height: auto;
+}
+
+nav.navMenu {
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+   
+nav.navMenu ul {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    top: 0px;
+    left: 1px;
+    text-decoration: none;
+
+}
+   
+nav.navMenu li {
+    display: inline;
+    background-color: #dddd;
+    padding: 15px;
+    margin: 10px auto;
+    transition: background-color 1s;
+    -webkit-transition: background-color: 1s;
+    -moz-transition: background-color: 1s;
+    -o-transition: background-color: 1s;
+    -ms-transition: background-color: 1s;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px gray;
+}
+
+nav.navMenu span {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+nav.navMenu li:hover {
+   background-color: #606060;
+   box-shadow: 2px 1px 1px gray;
+}
+
+#imgRounded {
+    border-radius: 50%;
+}
+#description, #description2 {
+    font-size: 25px;
+    font-family: 'Loboto', cursive;
+}
+.centro {
+    text-align: center;
+}
+
+.float {
+    position: relative;
+    float: left;
+}
+
