@@ -48,7 +48,7 @@ nav.navMenu li:hover {
 #imgRounded {
     border-radius: 50%;
 }
-#description, #description2 {
+#description, #description2, #description3 {
     font-size: 25px;
     font-family: 'Loboto', cursive;
 }
