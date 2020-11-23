@@ -7,7 +7,7 @@ function linkInicio(){
 //Função para ir aos portifólios de Hugo Henrique
 function linkPortifolios(){
     //Redirecionamento
-    window.location.href = "portifolios.html";
+    window.location.href = "portifolio.html";
 }
 
 //Função para ir aos contatos de Hugo Henrique
