@@ -1,0 +1,144 @@
+/**
+ * Fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap'); 
+/* font-family: 'JetBrains Mono', monospace;s */
+
+* {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+	background-color: #d9d9d9;
+}
+
+/**
+ * Classes
+ */
+.title {
+	width: 100%;
+}
+
+.title-div {
+	text-align: center;
+}
+
+.menu {
+	width: 100%;
+	display: inline-flex;
+}
+
+.menu > .menu-option {
+	width: 10em;
+	margin: 10px auto;
+	text-align: center;
+	background-color: #eeeeee;
+	border-radius: 1em;
+	transition: 0.5s;
+}
+
+.menu > .menu-option:hover {
+	text-shadow: 10px 1px 3px #363636;
+}
+
+.col2 {
+	display: inline-flex;
+	width: 100%;
+}
+
+.col-tech {
+	display: block;
+	margin: 0 auto;
+}
+
+.main {
+	display: none;
+}
+
+.coluna {
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+.speel {
+	display: inline-flex;
+}
+
+.speel > p {
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.knowledges {
+	width: 50px;
+	height: 60px;
+}
+
+.cols-tech {
+	display: inline-flex;
+	width: 100%;
+}
+
+.image {
+	margin-top: 2%;
+}
+
+.image > .profile {
+	display: table;
+	margin: 0 auto;
+	padding: 8px 10px auto;
+	border: 1px solid;
+	border-radius: 10px;
+}
+
+.image > .profile > .profileDescription >  .imageProfile {
+	display: table;
+	margin: 0 auto;
+	margin-top: 5px; 
+	border-radius: 20px;
+	height: 20em;
+	width: 15em;
+}
+
+.image > .profile > .profileDescription {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.image > .profile > .profileDescription > .profileName {
+	display: table;
+	margin: 0 auto;
+}
+
+.image > .profile > .profileDescription > .profileTxt {
+	padding-left: 10px;
+	padding-right: 10px;
+	display: table;
+	margin: 0 auto;
+}
+
+.image > .profile > .profileDescription > .instagramButtons {
+	width: 100%;
+	display: inline-flex;
+}
+
+.image > .profile > .profileDescription > .instagramButtons > .instagramBtn {
+	margin: 0 auto;
+	filter: brightness(0%);
+	width: 55px;
+	height: 50px;
+}
+
+.instagramHeart {
+	transition: 1s;
+}
+
+.instagramHeart:hover {
+	width: 45px
+	height 40px;
+}
+
+/**
+ * Ids
+ */
