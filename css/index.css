@@ -8,7 +8,7 @@
 	font-family: 'JetBrains Mono', monospace;
 }
 
-body {
+.body {
 	background-color: #d9d9d9;
 }
 
@@ -27,9 +27,9 @@ body {
 	width: 100%;
 	display: inline-flex;
 }
-
-.menu > .menu-option {
+.menu-option {
 	width: 10em;
+	height: 1.5em;
 	margin: 10px auto;
 	text-align: center;
 	background-color: #eeeeee;
@@ -37,7 +37,7 @@ body {
 	transition: 0.5s;
 }
 
-.menu > .menu-option:hover {
+.menu-option:hover {
 	text-shadow: 10px 1px 3px #363636;
 }
 
@@ -71,8 +71,8 @@ body {
 }
 
 .knowledges {
-	width: 50px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 }
 
 .cols-tech {
@@ -84,46 +84,25 @@ body {
 	margin-top: 2%;
 }
 
-.image > .profile {
-	display: table;
-	margin: 0 auto;
+ .profile {
+	width: 20em;
 	padding: 8px 10px auto;
 	border: 1px solid;
 	border-radius: 10px;
 }
 
-.image > .profile > .profileDescription >  .imageProfile {
-	display: table;
-	margin: 0 auto;
+ .imageProfile {
 	margin-top: 5px; 
 	border-radius: 20px;
 	height: 20em;
 	width: 15em;
 }
 
-.image > .profile > .profileDescription {
+.instagramButtons {
 	width: 100%;
-	margin-top: 10px;
 }
 
-.image > .profile > .profileDescription > .profileName {
-	display: table;
-	margin: 0 auto;
-}
-
-.image > .profile > .profileDescription > .profileTxt {
-	padding-left: 10px;
-	padding-right: 10px;
-	display: table;
-	margin: 0 auto;
-}
-
-.image > .profile > .profileDescription > .instagramButtons {
-	width: 100%;
-	display: inline-flex;
-}
-
-.image > .profile > .profileDescription > .instagramButtons > .instagramBtn {
+ .instagramBtn {
 	margin: 0 auto;
 	filter: brightness(0%);
 	width: 55px;
